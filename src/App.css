@@ -25,6 +25,7 @@ code {
   background-color: #3a86ff;
   height: 100%;
   overflow: auto;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .table {
@@ -90,40 +91,30 @@ code {
 
 .nav-container{
   display: flex;
+  text-align: center;
   justify-content: space-around;
   width: 100%;
   background-color: #8338ec;
-  height: 20vh;
+  height: 24vh;
   position: sticky;
-  
-}
-
-.header-image {
-/*  background-image: url(./Assets/Images/dims.7089e1f3.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;*/
-  background-color: #8338ec;
- background-position: 80%;
-  min-height: inherit;
-  width: 100%;
+  font-size: 3vw;
 }
 
 .nav-links {
   display: flex;
  
 }
- .header-container {
-   display:flex;
-   justify-content: space-between;
-   margin:0 10vw 0 1vw;
+
+.nav-title {
+  color: white;
+  text-decoration: none;
 }
- 
 
 .nav-text {
   color: white;
   text-decoration: none;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 3vw;
+  font-family: 'Noto Sans KR', sans-serif;
+ 
 }
 
 .footer-text {
@@ -211,7 +202,7 @@ table, tr, th, td {
   }
 
   .nav-text {
-    font-size: 5vw;
+    font-size: 1vw;
   }
 
   .body-text{
