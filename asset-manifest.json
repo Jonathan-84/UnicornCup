@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/UnicornCup/static/css/main.7c0d8d22.chunk.css",
+    "main.js": "/UnicornCup/static/js/main.b453b588.chunk.js",
+    "main.js.map": "/UnicornCup/static/js/main.b453b588.chunk.js.map",
+    "runtime-main.js": "/UnicornCup/static/js/runtime-main.97745c9e.js",
+    "runtime-main.js.map": "/UnicornCup/static/js/runtime-main.97745c9e.js.map",
+    "static/js/2.c7807561.chunk.js": "/UnicornCup/static/js/2.c7807561.chunk.js",
+    "static/js/2.c7807561.chunk.js.map": "/UnicornCup/static/js/2.c7807561.chunk.js.map",
+    "static/js/3.3346b540.chunk.js": "/UnicornCup/static/js/3.3346b540.chunk.js",
+    "static/js/3.3346b540.chunk.js.map": "/UnicornCup/static/js/3.3346b540.chunk.js.map",
+    "index.html": "/UnicornCup/index.html",
+    "static/css/main.7c0d8d22.chunk.css.map": "/UnicornCup/static/css/main.7c0d8d22.chunk.css.map",
+    "static/js/2.c7807561.chunk.js.LICENSE.txt": "/UnicornCup/static/js/2.c7807561.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97745c9e.js",
+    "static/js/2.c7807561.chunk.js",
+    "static/css/main.7c0d8d22.chunk.css",
+    "static/js/main.b453b588.chunk.js"
+  ]
+}
