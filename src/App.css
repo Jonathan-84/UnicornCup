@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Where I found color palette: https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff */
+
+.LeftPanel {
+
+  width:40%;
+  float: left;
+  background-color: #3a86ff;
+  height: 100%;
+  overflow: auto;
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.page-container {
+  display: flex;
+}
+
+
+.main {
+  display: flex ;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-items: center;
+  width:60%;
+  overflow: auto;
+}
+
+.planet-photo, .earth-photo {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  flex-grow: 1;
+
+}
+
+.footer {
+  bottom: 0;
+  
+}
+
+.footer-container {
+
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #8338ec;
+  position:fixed;
+  bottom:0;
+}
+
+.title {
+  text-align: center;
+  width: 90%;
+  
+}
+
+.explText {
+  text-align: center;
+  width: 90%;
+}
+
+
+.footer-size {
+  width: 100%;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #8338ec;
+  height: 20vh;
+  position: sticky;
+  
+}
+
+.header-image {
+/*  background-image: url(./Assets/Images/dims.7089e1f3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;*/
+  background-color: #8338ec;
+ background-position: 80%;
+  min-height: inherit;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+ 
+}
+ .header-container {
+   display:flex;
+   justify-content: space-between;
+   margin:0 10vw 0 1vw;
+}
+ 
+
+.nav-text {
+  color: white;
+  text-decoration: none;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3vw;
+}
+
+.footer-text {
+  color: white;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2vw;
+}
+
+/*div.pic-day {
+  border: 2px solid red;
+  width: 10vw;
+  height: 10vh;
+}*/
+
+/* Music Panel*/
+.music-color {
+  color:#eb5e28;
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+.table-header-text {
+  font-weight: bold;
+  color: white ;
+  background-color: orangered;
+  text-align: center;
+}
+
+.w3-table-all {
+  border: 2px solid white;
+  border-collapse: collapse;
+  width: 100%;
+  line-height: 2em;
+  align-items: center;
+  justify-items: center;
+}
+
+
+
+table, tr, th, td {
+  border: 2px solid white;
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-width: 680px) and (orientation: landscape)  {
+
+  .page-container {
+    flex-direction: column;
+  }
+
+  .main {
+    width:auto;
+    height: 100%
+    
+  }
+  .footer-text {
+    font-size: 4vw;
+  }
+
+  .nav-text {
+    font-size: 4vw;
+  }
+
+  .body-text{
+    font-size: 2vw;
+  }
+
+}
+
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-width: 680px) and (orientation: portrait)  {
+  .page-container {
+    flex-direction: column;
+  }
+
+
+  .main {
+    width:auto;
+    height: 100%
+    
+  }
+  .footer-text {
+    font-size: 5vw;
+  }
+
+  .nav-text {
+    font-size: 5vw;
+  }
+
+  .body-text{
+    font-size: 3vw;
+  }
+
+  .header-container{
+ padding-top: 40px;
+    
+  }
+
+}
+@media screen and (min-width: 680px) and (max-width: 1060px) and (orientation: portrait){
+  .LeftPanel {
+   width:33%;
+   height: auto;
+   margin-bottom: -65px;
+
+  }
+
+  .main {
+    width:65%;
+    height: 100%
+  }
+
+  .music-color {
+    color:#eb5e28;
+    font-weight: bold;
+    font-size: 2vh;
+  }
+  .footer-text {
+    font-size: 4vw;
+  }
+
+  .nav-text {
+    font-size: 4vw;
+  }
+
+}
+
+@media screen and (min-width: 680px) and (max-width: 1060px) and (orientation: landscape){
+  .LeftPanel {
+   width:33%;
+   height: auto;
+  }
+
+  .main {
+    width:65%;
+    height: 100%
+  }
+
+  .music-color {
+    color:#eb5e28;
+    font-weight: bold;
+    font-size: 2vh;
+  }
+  .footer-text {
+    font-size: 4vw;
+  }
+
+  .nav-text {
+    font-size: 4vw;
+  }
+
+}
