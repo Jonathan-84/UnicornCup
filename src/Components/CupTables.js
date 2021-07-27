@@ -17,33 +17,92 @@ class CupTables extends Component {
     return (
       <>
       <br></br>
+      <div className="history">
+      <button className="nav-button"><Link to={"/History"} className="nav-subtitle"> The Cup's History</Link></button>
+    </div>
+      <br></br>
       <h1 className='title'>Unicorn Cup Tables</h1>
       <br></br>
       <table class="table">
-  <tr>
+  <tr className='table-header'>
     <th>Event</th>
     <th>LlamaPhones Pts</th>
     <th>Hippopposites Pts</th>
   </tr>
   <tr>
-    <Link to={"/ShortToss"} className="nav-text"><td>Short Toss</td></Link>
+  <td><Link to={"/ShortToss"} className="nav-text">Short Toss</Link></td>
     <td>1</td>
     <td>0</td>
   </tr>
   <tr>
-  <Link to={"/LongToss"} className="nav-text"><td>Long Toss</td></Link>
+  <td><Link to={"/LongToss"} className="nav-text">Long Toss</Link></td>
     <td>0</td>
     <td>1</td>
   </tr>
   <tr>
-  <Link to={"/KiteFlying"} className="nav-text"><td>Kite Flying</td></Link>
+  <td><Link to={"/KiteFlying"} className="nav-text">Kite Flying</Link></td>
     <td>1</td>
     <td>0</td>
   </tr>
   <tr>
-  <Link to={"/TurtleToss"} className="nav-text"><td>Turtle Toss</td></Link>
+  <td><Link to={"/TurtleToss"} className="nav-text">Turtle Toss</Link></td>
     <td>0</td>
     <td>1</td>
+  </tr>
+  <tr>
+  <td><Link to={"/Uno"} className="nav-text">Uno</Link></td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+  <td><Link to={"/SecretIngredient"} className="nav-text">Secret Ingredient</Link></td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+  <td> <Link to={"/BTS"} className="nav-text">Bed Time Stealth</Link></td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+  <td><Link to={"/GameOn"} className="nav-text">Game On</Link></td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+  <td><Link to={"/Sammy"} className="nav-text">Best Sandwich</Link></td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+  <td><Link to={"/BTTO"} className="nav-text">Book Time Tap Out</Link></td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+  <td><Link to={"/Find"} className="nav-text">Find It</Link></td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+  <td><Link to={"/Jeopardy"} className="nav-text">Jeopardy</Link></td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+  <td><Link to={"/Yoga"} className="nav-text">Yoga</Link></td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+  <td><Link to={"/Jenga"} className="nav-text">Jenga</Link></td>
+    <td>TBD</td>
+    <td>TBD</td>
+  </tr>
+  <tr>
+  <td><Link to={"/Ouch"} className="nav-text">Ouch!</Link></td>
+    <td>TBD</td>
+    <td>TBD</td>
   </tr>
 </table>
   <br>

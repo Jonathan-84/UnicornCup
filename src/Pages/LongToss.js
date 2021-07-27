@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 //import moment from 'moment';
 import '../App.css';
+import BeanBag from '../Assets/Images/BeanBagToss.jpg'; // gives image path
 
 
 class LongToss extends Component {
@@ -10,11 +11,10 @@ class LongToss extends Component {
    
         return (
           <>
-          <div>
+          
           <h1 className='title'>Long Toss</h1>
+          <img src={BeanBag} alt="Lay down bean bag" className="photos" />
           <p className='explText'>Enter event description</p>
-    
-            </div>
             <br>
             </br>
             <br></br>

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
+import BeanBag from '../Assets/Images/BeanBagToss.jpg'; // gives image path
 
 
 class ShortToss extends Component {
- 
   
 
   render() {
@@ -11,9 +11,11 @@ class ShortToss extends Component {
 
     return (
       <>
-      <h1 className="title ">ShortToss</h1>
+      
+      <h1 className="title ">Short Toss</h1>
+      <img src={BeanBag} alt="Lay down bean bag" className="photos" />
+      <p className='explText'>Enter event description</p>
       <br></br>
-      <p>Add short event Description.</p>
       
 
       </>

@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFBE0B;
 }
 
 code {
@@ -41,6 +42,7 @@ code {
 
 .main {
   display: flex ;
+  
   flex-flow: column wrap;
   align-items: center;
   justify-items: center;
@@ -92,6 +94,8 @@ code {
 .nav-container{
   display: flex;
   text-align: center;
+  align-items: center;
+  justify-items: center;
   justify-content: space-around;
   width: 100%;
   background-color: #8338ec;
@@ -106,8 +110,37 @@ code {
 }
 
 .nav-title {
+
   color: white;
+  text-align: center;
+  font-size: 10vw;
   text-decoration: none;
+  margin-bottom: auto;
+}
+
+.nav-subtitle {
+
+  color: white;
+  text-align: center;
+  font-size: 2vw;
+  text-decoration: none;
+}
+
+.nav-button {
+  background-color: #ff006e;
+  border-radius: 8px;
+}
+
+.history {
+  text-align: center;
+}
+
+
+.photos {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  flex-grow: 1;
 }
 
 .nav-text {
@@ -131,23 +164,20 @@ code {
 }*/
 
 /* Music Panel*/
-.music-color {
-  color:#eb5e28;
-  font-weight: bold;
-  font-size: 3vh;
+.LeftPanel {
+  width: auto;
 }
 
-.table-header-text {
+.table-header{
   font-weight: bold;
   color: white ;
-  background-color: orangered;
   text-align: center;
 }
 
-.w3-table-all {
+.table {
   border: 2px solid white;
   border-collapse: collapse;
-  width: 100%;
+
   line-height: 2em;
   align-items: center;
   justify-items: center;
@@ -155,7 +185,7 @@ code {
 
 
 
-table, tr, th, td {
+table, tr, th, td{
   border: 2px solid white;
 }
 
@@ -172,10 +202,6 @@ table, tr, th, td {
     
   }
   .footer-text {
-    font-size: 4vw;
-  }
-
-  .nav-text {
     font-size: 4vw;
   }
 
@@ -201,10 +227,6 @@ table, tr, th, td {
     font-size: 5vw;
   }
 
-  .nav-text {
-    font-size: 1vw;
-  }
-
   .body-text{
     font-size: 3vw;
   }
@@ -217,27 +239,18 @@ table, tr, th, td {
 }
 @media screen and (min-width: 680px) and (max-width: 1060px) and (orientation: portrait){
   .LeftPanel {
-   width:33%;
+   width:40%;
    height: auto;
    margin-bottom: -65px;
 
   }
 
   .main {
-    width:65%;
+    width:60%;
     height: 100%
   }
 
-  .music-color {
-    color:#eb5e28;
-    font-weight: bold;
-    font-size: 2vh;
-  }
   .footer-text {
-    font-size: 4vw;
-  }
-
-  .nav-text {
     font-size: 4vw;
   }
 
@@ -245,26 +258,20 @@ table, tr, th, td {
 
 @media screen and (min-width: 680px) and (max-width: 1060px) and (orientation: landscape){
   .LeftPanel {
-   width:33%;
+   width:40%;
    height: auto;
   }
 
   .main {
-    width:65%;
+    width:60%;
     height: 100%
   }
 
-  .music-color {
-    color:#eb5e28;
-    font-weight: bold;
-    font-size: 2vh;
-  }
+
   .footer-text {
     font-size: 4vw;
   }
 
-  .nav-text {
-    font-size: 4vw;
-  }
+
 
 }
