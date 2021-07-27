@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/UnicornCup/static/css/main.3849b47b.chunk.css",
-    "main.js": "/UnicornCup/static/js/main.a17d74a6.chunk.js",
-    "main.js.map": "/UnicornCup/static/js/main.a17d74a6.chunk.js.map",
+    "main.css": "/UnicornCup/static/css/main.e28d7b5d.chunk.css",
+    "main.js": "/UnicornCup/static/js/main.d9430b22.chunk.js",
+    "main.js.map": "/UnicornCup/static/js/main.d9430b22.chunk.js.map",
     "runtime-main.js": "/UnicornCup/static/js/runtime-main.97745c9e.js",
     "runtime-main.js.map": "/UnicornCup/static/js/runtime-main.97745c9e.js.map",
-    "static/js/2.5a575f7a.chunk.js": "/UnicornCup/static/js/2.5a575f7a.chunk.js",
-    "static/js/2.5a575f7a.chunk.js.map": "/UnicornCup/static/js/2.5a575f7a.chunk.js.map",
+    "static/js/2.0f16ebd5.chunk.js": "/UnicornCup/static/js/2.0f16ebd5.chunk.js",
+    "static/js/2.0f16ebd5.chunk.js.map": "/UnicornCup/static/js/2.0f16ebd5.chunk.js.map",
     "static/js/3.3346b540.chunk.js": "/UnicornCup/static/js/3.3346b540.chunk.js",
     "static/js/3.3346b540.chunk.js.map": "/UnicornCup/static/js/3.3346b540.chunk.js.map",
     "index.html": "/UnicornCup/index.html",
-    "static/css/main.3849b47b.chunk.css.map": "/UnicornCup/static/css/main.3849b47b.chunk.css.map",
-    "static/js/2.5a575f7a.chunk.js.LICENSE.txt": "/UnicornCup/static/js/2.5a575f7a.chunk.js.LICENSE.txt",
+    "static/css/main.e28d7b5d.chunk.css.map": "/UnicornCup/static/css/main.e28d7b5d.chunk.css.map",
+    "static/js/2.0f16ebd5.chunk.js.LICENSE.txt": "/UnicornCup/static/js/2.0f16ebd5.chunk.js.LICENSE.txt",
     "static/media/BeanBagToss.14060743.jpg": "/UnicornCup/static/media/BeanBagToss.14060743.jpg",
     "static/media/IronChef.726ade63.jpg": "/UnicornCup/static/media/IronChef.726ade63.jpg",
+    "static/media/TheCup.a64d09da.jpg": "/UnicornCup/static/media/TheCup.a64d09da.jpg",
     "static/media/Torch.6c839cdd.jpg": "/UnicornCup/static/media/Torch.6c839cdd.jpg",
     "static/media/TurtleToss.753e41af.jpg": "/UnicornCup/static/media/TurtleToss.753e41af.jpg",
     "static/media/Uno.feb17203.jpg": "/UnicornCup/static/media/Uno.feb17203.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.97745c9e.js",
-    "static/js/2.5a575f7a.chunk.js",
-    "static/css/main.3849b47b.chunk.css",
-    "static/js/main.a17d74a6.chunk.js"
+    "static/js/2.0f16ebd5.chunk.js",
+    "static/css/main.e28d7b5d.chunk.css",
+    "static/js/main.d9430b22.chunk.js"
   ]
 }
