@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 //import moment from 'moment';
 import '../App.css';
-//import UnoPic from '../Assets/Images/Uno.jpg'; // gives image path
+import Injustice from '../Assets/Images/Injustice2.jpg'; // gives image path
 
 
 class GameOn extends Component {
@@ -13,7 +13,7 @@ class GameOn extends Component {
           <>
           
           <h1 className='title'>Game On</h1>
-        {/*}  <img src={UnoPic} alt="Deck of Toy Story Uno" className="photos" />*/}
+          <img src={Injustice} alt="cover of injustice 2" className="photos" />
         <p className='explText'><span className='events'>Events Origins and Rules: </span> It could not be a Robinson 
         tournament without a video game event. The challenge can be deciding the way to best keep competitors fairly matched
         especially with Hippopposites video game experience. With that experience in mind, Injustice 2: Legenedary Edition

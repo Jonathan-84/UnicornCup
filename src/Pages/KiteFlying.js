@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import Owl from '../Assets/Images/owlkite.jpg'; // gives image path
 
 class KiteFlying extends Component {
  
@@ -12,6 +12,7 @@ class KiteFlying extends Component {
     return (
       <>
       <h1 className="title ">Kite Flying</h1>
+      <img src={Owl} alt="owl kite" className="photos" />
       <br></br>
       <p className='explText'><span className='events'>Events Origins and Rules: </span>The Littlest won loves a
       good kite-flying, but can the competitors live up to his high and sometimes fluid standards. Based on the

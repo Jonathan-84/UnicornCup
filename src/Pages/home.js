@@ -15,22 +15,31 @@ class Home extends Component {
 
     new Chart(ctx, {
       type: 'bar',
-      data: {
-        labels: ["Llamaphones", "Hippopposites"],
-        datasets: [
-          {
-            label: "Points",
-            data: [5, 2, 14],
-            backgroundColor: [
-              "Red",
-              "Blue",
-            ],
-            borderColor: ["Red", "Blue"],
-            borderWidth: 1
-          }
-        ]
-      }
-    });
+   data: {
+       datasets: [{
+           label: "Team's Total",
+           data: [0, 5, 3, 0, 14,],
+           borderColor: ["Green", "Red"],
+           backgroundColor: ["Green", "Red"],
+           // this dataset is drawn below
+           order: 1
+       }, {
+           label: 'Clinch',
+           data: [9, 9, 9, 9, 9, 9, 9],
+           borderColor: 'Purple',
+           type: 'line',
+           // this dataset is drawn on top
+           order: 0,
+           borderDash     : [0,6], 
+           
+borderCapStyle : 'round', 
+       }],
+
+       labels: ['','Llamaphone', 'Hippopposites','']
+   
+}
+
+});
         
 }
   

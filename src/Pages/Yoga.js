@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 //import moment from 'moment';
 import '../App.css';
-//import UnoPic from '../Assets/Images/Uno.jpg'; // gives image path
+import YogaPic from '../Assets/Images/yoga.jpg'; // gives image path
 
 
 class Yoga extends Component {
@@ -13,7 +13,7 @@ class Yoga extends Component {
           <>
           
           <h1 className='title'>Yoga: Who Falls Least</h1>
-        {/*}  <img src={UnoPic} alt="Deck of Toy Story Uno" className="photos" />*/}
+        <img src={YogaPic} alt="Yoga with Adriene 30 days of Yoga" className="photos" />
           <p className='explText'>Enter event description</p>
             <br>
             </br>
