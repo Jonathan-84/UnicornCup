@@ -22,12 +22,13 @@ class CupTables extends Component {
     </div>
       <br></br>
       <h1 className='title'>Unicorn Cup Tables</h1>
+      <p> The event's winner will receive a point.</p>
       <br></br>
       <table class="table">
   <tr className='table-header'>
     <th>Event</th>
-    <th>LlamaPhones Pts</th>
-    <th>Hippopposites Pts</th>
+    <th>Llamaphones</th>
+    <th>Hippopposites</th>
   </tr>
   <tr>
   <td><Link to={"/ShortToss"} className="nav-text">Short Toss</Link></td>
@@ -66,8 +67,8 @@ class CupTables extends Component {
   </tr>
   <tr>
   <td><Link to={"/GameOn"} className="nav-text">Game On</Link></td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>1</td>
+    <td>0</td>
   </tr>
   <tr>
   <td><Link to={"/Sammy"} className="nav-text">Best Sandwich</Link></td>
@@ -91,8 +92,8 @@ class CupTables extends Component {
   </tr>
   <tr>
   <td><Link to={"/Yoga"} className="nav-text">Yoga</Link></td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>1</td>
+    <td>0</td>
   </tr>
   <tr>
   <td><Link to={"/Jenga"} className="nav-text">Jenga</Link></td>

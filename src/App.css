@@ -24,8 +24,8 @@ code {
   width:40%;
   float: left;
   background-color: #3a86ff;
-  height: 100%;
-  overflow: auto;
+  height: auto;
+  overflow-y:scroll; 
   font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -39,6 +39,9 @@ code {
   display: flex;
 }
 
+.events {
+  font-weight: bold;
+}
 
 .main {
   display: flex ;
@@ -139,7 +142,7 @@ code {
 .photos {
   width: 100%;
   max-width: 400px;
-  height: auto;
+  max-height: 400px;
   flex-grow: 1;
 }
 

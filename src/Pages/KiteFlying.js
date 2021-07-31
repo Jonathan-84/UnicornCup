@@ -13,7 +13,13 @@ class KiteFlying extends Component {
       <>
       <h1 className="title ">Kite Flying</h1>
       <br></br>
-      <p>Add short event Description.</p>
+      <p className='explText'><span className='events'>Events Origins and Rules: </span>The Littlest won loves a
+      good kite-flying, but can the competitors live up to his high and sometimes fluid standards. Based on the
+      little one's subjective view, of who flew the kite better, the winner was selected.  </p>
+      <p className='explText'><span className='events'>Results:</span> Llamaphones won this event quickly, but not 
+      without some controversy. Initially both competitors were named winners due to the judge's fluid style. There can
+      only be one winner though, so the replay was needed, the judge initially granted victory to Llamaphones
+      and the first judgement is the one that counts.  </p>
       
 
       </>

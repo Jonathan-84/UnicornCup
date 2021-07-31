@@ -26,7 +26,7 @@ require('dotenv').config()
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter  basename={process.env.PUBLIC_URL} >
         <>
           <Header />
           <div className='page-container'>

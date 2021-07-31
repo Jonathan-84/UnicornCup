@@ -14,7 +14,11 @@ class TurtleToss extends Component {
       <>
       <h1 className="title ">Turtle Toss</h1>
       <img src={TurtleTossPic} alt="Upright Turtle Bean Bag" className="photos" />
-      <p className='explText'>Enter event description</p>
+      <p className='explText'><span className='events'>Events Origins and Rules: </span>Seems like tossing bean bags are the new American Past Time. Naturally
+      it has become a Unicorn Cup event. In the Turtle Toss event, the bean bag target is vertical and located 15ft away. The 
+      event is broken into 3 sets, best total score each set wins the set. </p>
+      <p className='explText'><span className='events'>Results:</span> The Turtle Toss was swept by Hippopposites, but it was close.
+      Both set 1 and 2 were won by only 2 points.</p>
       <br></br>
       <br></br>
       <br></br>
