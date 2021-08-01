@@ -17,15 +17,15 @@ class Home extends Component {
       type: 'bar',
    data: {
        datasets: [{
-           label: "Team's Total",
-           data: [0, 5, 3, 0, 14,],
+           label: "Team Total",
+           data: [0, 6, 3, 0, 14,],
            borderColor: ["Green", "Red"],
            backgroundColor: ["Green", "Red"],
            // this dataset is drawn below
            order: 1
        }, {
-           label: 'Clinch',
-           data: [9, 9, 9, 9, 9, 9, 9],
+           label: 'Magic Number',
+           data: [8, 8, 8, 8, 8, 8, 8],
            borderColor: 'Purple',
            type: 'line',
            // this dataset is drawn on top
@@ -57,8 +57,12 @@ borderCapStyle : 'round',
           The start of this year's competition was marked with a wonderfully tropical candle as contestants were announced. 
           This year's contestants are my wife (team Llamophones) and I (team Hippopposites).
           </p>
+          <p className='explText'> This year's team names are inspired by 2 awesome children's books focused on grammar: <span><a href="https://www.barnesandnoble.com/w/llamaphones-janik-coat/1126905972?ean=9781419728273" target="_blank" rel='noreferrer'>Llamaphones
+        </a></span> and <span><a href="https://www.barnesandnoble.com/w/hippopposites-janik-coat/1105802932?ean=9781419701511" target="_blank" rel='noreferrer'>Hippopposites
+        </a></span>.</p>
           <div>
           <canvas id="myChart" width="400" height="400"></canvas>
+          <p className='explText'> * 5 Events remain </p>
 </div>
           <div>
 </div>

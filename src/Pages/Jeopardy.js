@@ -22,7 +22,7 @@ class Jeopardy extends Component {
         </p>
       <p className='explText'><span className='events'>Results:</span> The event started strong with a couple of rights answers for both contestants.
       That didn't last long, soon enough Llamaphones took control, with her excellent auditory processing speed and wizadry with the "Nerve" category 
-      questions. In Round 2, Hippopposites mounted a mini-comeback but Llamaphones steady performance ensured victory. </p>
+      questions. In Round 2, Hippopposites mounted a mini-comeback but Llamaphone's steady performance ensured victory. </p>
             <br>
             </br>
             <br></br>
