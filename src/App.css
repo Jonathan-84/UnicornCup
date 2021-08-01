@@ -20,12 +20,10 @@ code {
 /* Where I found color palette: https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff */
 
 .LeftPanel {
-
+overflow: auto;
   width:40%;
   float: left;
   background-color: #3a86ff;
-  height: auto;
-  overflow-y:scroll; 
   font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -37,6 +35,8 @@ code {
 
 .page-container {
   display: flex;
+  /*height:70vh;*/
+
 }
 
 .events {
@@ -45,20 +45,11 @@ code {
 
 .main {
   display: flex ;
-  
   flex-flow: column wrap;
   align-items: center;
   justify-items: center;
   width:60%;
   overflow: auto;
-}
-
-.planet-photo, .earth-photo {
-  width: 100%;
-  max-width: 400px;
-  height: auto;
-  flex-grow: 1;
-
 }
 
 .footer {
@@ -96,19 +87,22 @@ code {
 
 .nav-container{
   display: flex;
-  text-align: center;
-  align-items: center;
-  justify-items: center;
+  align-items: flex-start;
   justify-content: space-around;
   width: 100%;
   background-color: #8338ec;
-  height: 24vh;
   position: sticky;
-  font-size: 3vw;
+}
+
+.hero-links {
+  display: flex ; 
+  flex-direction: column;
+  margin:1vw;
 }
 
 .nav-links {
   display: flex;
+  align-items: space-between;
  
 }
 
@@ -146,6 +140,23 @@ code {
   flex-grow: 1;
 }
 
+/* need to update to make hero show up correctly*/
+.hero {
+    width: 100%;
+    max-width: 400px;
+    max-height: 250px;
+    flex-grow: 1;
+}
+
+/*Look into the background approach for the header*/
+.hero-image {
+background-image: url(./Assets/Images/logo.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 80%;
+height: inherit;
+width: 100%;
+}
 .nav-text {
   color: white;
   text-decoration: none;

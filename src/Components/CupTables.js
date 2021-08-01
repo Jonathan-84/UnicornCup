@@ -17,14 +17,11 @@ class CupTables extends Component {
     return (
       <>
       <br></br>
-      <div className="history">
-      <button className="nav-button"><Link to={"/History"} className="nav-subtitle"> The Cup's History</Link></button>
-    </div>
-      <br></br>
+   
       <h1 className='title'>Unicorn Cup Tables</h1>
       <p> The event's winner will receive a point.</p>
       <br></br>
-      <table class="table">
+      <table class="table nav-text ">
   <tr className='table-header'>
     <th>Event</th>
     <th>Llamaphones</th>
@@ -32,12 +29,12 @@ class CupTables extends Component {
   </tr>
   <tr>
   <td><Link to={"/ShortToss"} className="nav-text">Short Toss</Link></td>
-    <td>1</td>
-    <td>0</td>
+    <td >1</td>
+    <td >0</td>
   </tr>
   <tr>
   <td><Link to={"/LongToss"} className="nav-text">Long Toss</Link></td>
-    <td>0</td>
+    <td >0</td>
     <td>1</td>
   </tr>
   <tr>
