@@ -82,13 +82,13 @@ class CupTables extends Component {
   </tr>
   <tr>
   <td><Link to={"/Find"} className="nav-text">Find It</Link></td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>0</td>
+    <td>1</td>
   </tr>
   <tr>
   <td><Link to={"/Jeopardy"} className="nav-text">Jeopardy</Link></td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>1</td>
+    <td>0</td>
   </tr>
   <tr>
   <td><Link to={"/Yoga"} className="nav-text">Yoga</Link></td>
