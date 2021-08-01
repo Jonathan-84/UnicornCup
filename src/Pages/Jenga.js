@@ -14,7 +14,13 @@ class Jenga extends Component {
           
           <h1 className='title'>Jenga</h1>
          <img src={JengaPic} alt="Stock Jenga" className="photos" />
-          <p className='explText'>Enter event description</p>
+         <p className='explText'><span className='events'>Events Origins and Rules: </span> The past 1.5 years have cemented the importance of 
+         delicately balancing responsibilities and roles- often through addition and subtraction. Jenga is a simple and fast game that 
+         represents that concept. There are no tricky rules here. The contestants will follow the rules of Jenga in a best of 3
+         series.
+ </p>
+      <p className='explText'><span className='events'>Results:</span> Will update upon completion.
+       </p>
             <br>
             </br>
             <br></br>
