@@ -21,7 +21,9 @@ class Uno extends Component {
       <p className='explText'><span className='events'>Results:</span> Llamaphones swept both games in this event. Llamaphones was in the driver 
       seat most of the contest with Hippopposites only getting to call "Uno" once but was then promptly handed a Draw 4 card. 
        </p>
-          
+       <br>
+            </br>
+            <br></br>
 </>
        )
    }

@@ -21,7 +21,9 @@ class KiteFlying extends Component {
       without some controversy. Initially both competitors were named winners due to the judge's fluid style. There can
       only be one winner though, so the replay was needed, the judge initially granted victory to Llamaphones
       and the first judgement is the one that counts.  </p>
-      
+      <br>
+            </br>
+            <br></br>
 
       </>
     

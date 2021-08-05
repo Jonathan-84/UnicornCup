@@ -35,7 +35,7 @@ overflow: auto;
 
 .page-container {
   display: flex;
-  /*height:70vh;*/
+  height: auto;
 
 }
 
@@ -45,10 +45,11 @@ overflow: auto;
 
 .main {
   display: flex ;
-  flex-flow: column wrap;
+  flex-flow: column;
   align-items: center;
   justify-items: center;
-  width:60%;
+  width:70%;
+  height: auto;
   overflow: auto;
 }
 
@@ -72,11 +73,15 @@ overflow: auto;
 .title {
   text-align: center;
   width: 90%;
+  font-family: 'Oswald', sans-serif;
+  color:white;
+  font-size: 2.5vw;
   
 }
 
 .explText {
   text-align: center;
+  font-size: 2vw;
   width: 90%;
 }
 
@@ -143,24 +148,17 @@ overflow: auto;
 /* need to update to make hero show up correctly*/
 .hero {
     width: 100%;
-    max-width: 400px;
-    max-height: 250px;
+    max-width: 500px;
+    max-height: 300px;
     flex-grow: 1;
 }
 
-/*Look into the background approach for the header*/
-.hero-image {
-background-image: url(./Assets/Images/logo.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: 80%;
-height: inherit;
-width: 100%;
-}
+
 .nav-text {
   color: white;
   text-decoration: none;
   font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.5vw;
  
 }
 
@@ -210,6 +208,14 @@ table, tr, th, td{
     flex-direction: column;
   }
 
+  .nav-button {
+    background-color: #ff006e;
+    border-radius: 8px;
+  }
+  .nav-subtitle {
+    font-size: 3vw;
+  }
+
   .main {
     width:auto;
     height: 100%
@@ -222,6 +228,22 @@ table, tr, th, td{
   .body-text{
     font-size: 2vw;
   }
+  .explText {
+    text-align: center;
+    font-size: 2vw;
+    width: 90%;
+  }
+
+  .nav-text {
+    color: white;
+    font-size: 3vw;
+  }
+
+  
+.title {
+  font-size: 8vw;
+}
+
 
 }
 
@@ -231,10 +253,14 @@ table, tr, th, td{
     flex-direction: column;
   }
 
+  .nav-subtitle {
+    font-size: 4vw;
+  }
 
   .main {
     width:auto;
-    height: 100%
+    height: 100%;
+    padding-bottom: 7vw;
     
   }
   .footer-text {
@@ -244,6 +270,21 @@ table, tr, th, td{
   .body-text{
     font-size: 3vw;
   }
+
+  .explText {
+    text-align: center;
+    font-size: 4vw;
+    width: 90%;
+  }
+  .nav-text {
+    color: white;
+    font-size: 3vw;
+  }
+
+  
+.title {
+  font-size: 8vw;
+}
 
   .header-container{
  padding-top: 40px;
@@ -257,6 +298,11 @@ table, tr, th, td{
    height: auto;
    margin-bottom: -65px;
 
+  }
+
+  
+  .nav-subtitle {
+    font-size: 3vw;
   }
 
   .main {
@@ -274,6 +320,10 @@ table, tr, th, td{
   .LeftPanel {
    width:40%;
    height: auto;
+  }
+
+  .nav-subtitle {
+    font-size: 3vw;
   }
 
   .main {

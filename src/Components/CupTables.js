@@ -16,10 +16,9 @@ class CupTables extends Component {
 
     return (
       <>
-      <br></br>
    
       <h1 className='title'>Unicorn Cup Tables</h1>
-      <p> The event's winner will receive a point.</p>
+      <p className='nav-subtitle '> The event's winner will receive a point.</p>
       <br></br>
       <table class="table nav-text ">
   <tr className='table-header'>

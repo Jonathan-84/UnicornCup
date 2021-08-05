@@ -19,8 +19,11 @@ class ShortToss extends Component {
       event is broken into 3 sets, best total score each set wins the set. </p>
       <p className='explText'><span className='events'>Results:</span> It was a clean sweep for Llamaphones. After a close set 1, where the 
         point difference was 6, set 2 was not even close. </p>
-      <br></br>
-      
+        <br>
+            </br>
+            <br></br>
+           
+         
 
       </>
     
