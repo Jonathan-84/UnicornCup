@@ -21,15 +21,15 @@ class Find extends Component {
         The children are to hide the object (Kingdom Hearts Kairi keychain) while both contestants are out of the room, then leave the room to stand quietly with the 
         next contestant. This is meant to prevent hints. The first contestant then presses the stop watch and begins their search. The clock stops
         when they find the object. They then make sure that the children put the object in the same location for the next contestant- to ensure even 
-        difficulty.
+        difficulty. Contestant 2 takes their turn. 
         </p>
       <p className='explText'><span className='events'>Results:</span> After an event misfire, where the youngest hid the object
       and practically told Hippopposites where the object is, the object was hidden again. After the false-start, Hippopposites searched
-      the room, influenced by the fale-start hiding place... in the middle of the floor under toys, that is where Hippopposites started.
-      Eventually he shifted focus to the toy chest, the actual hiding place, and finding it at the 1 minute 30 second mark. Next it was Llamaphones
+      the room, influenced by the false-start hiding place... in the middle of the floor under toys, that is where Hippopposites started.
+      Eventually he shifted focus to the toy chest, the actual hiding place, wrapping up his turn at 1 minute 30 second mark. Next it was Llamaphones
       turn, the item was put back into the same hiding place, and the contest began. Llamaphones went right to the chest, while Hippopposites was sweating 
-      bullets, but she moved on from the chest without finding the item. After passing Hippopposites time, the event was called. It appeared
-      that the event was decided by Llamaphones confusion over which Kingdom Hearts keychain it was, thinking it was the Kingdom Hearts Riku keychain not the Kairi one.  </p>
+      bullets, but she moved on from the chest without finding the item. After passing Hippopposite's time, the event was called. It appeared
+      that the event was decided by Llamaphones confusion over which Kingdom Hearts keychain was used, thinking it was the Riku keychain not the Kairi one.  </p>
             <br>
             </br>
             <br></br>

@@ -54,10 +54,10 @@ borderCapStyle : 'round',
           <img src={Torch} alt="The Cermonial Unicorn Cup Torch" className="photos" />
           <p className='explText'>The inaugural Unicorn Cup kicked off on July 25th, 2021. Each Olympic year, 
           the Robinson household will do battle in feats of skill, intelligence, luck, and all together whimsy. 
-          The start of this year's competition was marked with a wonderfully tropical candle as contestants were announced. 
-          This year's contestants are my wife (team Llamophones) and I (team Hippopposites).
+          The start of this year's competition was marked with a wonderfully tropical candle as contestants were announced - 
+    my wife (team Llamaphones) and I (team Hippopposites).
           </p>
-          <p className='explText'> This year's team names are inspired by 2 awesome children's books focused on grammar: <span><a href="https://www.barnesandnoble.com/w/llamaphones-janik-coat/1126905972?ean=9781419728273" target="_blank" rel='noreferrer'>Llamaphones
+          <p className='explText'> This year's team names are inspired by 2 awesome grammar focused, children's books: <span><a href="https://www.barnesandnoble.com/w/llamaphones-janik-coat/1126905972?ean=9781419728273" target="_blank" rel='noreferrer'>Llamaphones
         </a></span> and <span><a href="https://www.barnesandnoble.com/w/hippopposites-janik-coat/1105802932?ean=9781419701511" target="_blank" rel='noreferrer'>Hippopposites
         </a></span>.</p>
           <div>
