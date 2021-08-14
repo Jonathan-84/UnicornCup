@@ -22,7 +22,7 @@ class BTS extends Component {
         <br>
         </br>
         This event will take place around the start of bedtime. 
-        Each contestant will make 3 passes by the kids' bedrooms. 1) the opposite direction 2) adjacent to their rooms 3) 
+        Each contestant will make 3 passes by the judges's bedrooms. 1) the opposite direction 2) adjacent to their rooms 3) 
         passing in front of their rooms. If your name, or mom/dad, is accurately called, then you get 0 points on that pass.
         If you are not identified, then you get 1 point.
         Then it's the other contestant's turn, unless the previous contestant was accurately identified during their turn.
@@ -30,7 +30,10 @@ class BTS extends Component {
         points after their 3 passes will win. A tiebreaker is TBD.  
 
  </p>
-      <p className='explText'><span className='events'>Results:</span> Will update upon completion.
+      <p className='explText'><span className='events'>Results:</span> Llamaphones won with 3 points, since Hippopposites 2. 
+      Each contestant exhibited ninja like stealth as they completed their first 2 passes. The third and final pass, right
+      in front of the judges' rooms, was the deciding round. After Hippopposites was called on his own turn, he was called for again
+      as Llamaphones completed their round... even though the little judge could see who passed.
        </p>
             <br>
             </br>

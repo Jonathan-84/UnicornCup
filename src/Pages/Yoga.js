@@ -24,7 +24,7 @@ class Yoga extends Component {
  </p>
       <p className='explText'><span className='events'>Results:</span> The Day was chosen at random and the contestants nearly
       nailed it. Though Hippopposites was muttering under his breath for some core exercises, it was his lone reset that decided
-      decided the competition. Llamaphones one with 0 falls/resets vs Hippopposites 1 fall/reset.
+      decided the competition. Llamaphones won with 0 falls/resets vs Hippopposites 1 fall/reset.
        </p>
             <br>
             </br>

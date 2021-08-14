@@ -15,12 +15,19 @@ class Find extends Component {
           <h1 className='title'>Where Did You Put My ...</h1>
         <img src={Kairi} alt="Kairi from KH keychain" className="photos" />
         <p className='explText'><span className='events'>Events Origins and Rules: </span> This event was inspired 
-        by the everyday challenge that the parents of young kids face. Most parents have uttered these words at least 
-        oncee: "where did you put my keys", "where did you hide my wallet", "what did you do with my [insert important item here]". 
-        For this event, the children were instructed to hide a far less important item in a specific room- filled with their toys. 
-        The children are to hide the object (Kingdom Hearts Kairi keychain) while both contestants are out of the room, then leave the room to stand quietly with the 
+        by the everyday challenge faced by parents with young kids. 
+        
+        <br></br>
+        <br></br> {/* tweak the font appearance */}
+        <span className='events'>Most parents have uttered these words at least 
+        once: "where did you put my keys", "where did you hide my wallet", "what did you do with my [insert important item here]". </span>
+        <br>
+        </br>
+        <br></br> 
+        The children will hide a far less important item in a specific room- filled with their toys. 
+        They will hide the object (Kingdom Hearts Kairi keychain) while both contestants are out of the room, then leave the room to stand quietly with the 
         next contestant. This is meant to prevent hints. The first contestant then presses the stop watch and begins their search. The clock stops
-        when they find the object. They then make sure that the children put the object in the same location for the next contestant- to ensure even 
+        when they find the object. Contestant 1 then makes sure that the children put the object in the same location for the next contestant- to ensure equal 
         difficulty. Contestant 2 takes their turn. 
         </p>
       <p className='explText'><span className='events'>Results:</span> After an event misfire, where the youngest hid the object

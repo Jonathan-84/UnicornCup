@@ -19,7 +19,7 @@ class Uno extends Component {
           of the Cup, the winner will be decided by a best of three format.
         </p>
       <p className='explText'><span className='events'>Results:</span> Llamaphones swept both games in this event. Llamaphones was in the driver 
-      seat most of the contest with Hippopposites only getting to call "Uno" once but was then promptly handed a Draw 4 card. 
+      seat most of the contest with Hippopposites only getting to call "Uno" once before promptly receiving a Draw 4 card. 
        </p>
        <br>
             </br>

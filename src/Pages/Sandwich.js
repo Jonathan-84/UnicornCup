@@ -22,8 +22,11 @@ class Sammy extends Component {
         the winner.
 
  </p>
-      <p className='explText'><span className='events'>Results:</span> Will update upon completion.
-       </p>
+      <p className='explText'><span className='events'>Results:</span> The fluid standards from both judges, led to 
+      initial confusion and controversy, but Hippopposites won by the slimmest of margins. After choosing their secret ingredients, from
+      the closet and refrigerator, the sandwiches were presented to the judges. In classic form, the judges chose the first
+      one that they bit into or chose the one they thought a specific contestant made. It took the rephrasing of judging criteria before
+      the youngest judge flipped their vote- capturing Hippopposites victory.       </p>
             <br>
             </br>
             <br></br>

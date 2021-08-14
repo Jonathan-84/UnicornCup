@@ -14,10 +14,10 @@ class Ouch extends Component {
           
           <h1 className='title'>Ouch! Name that Toy</h1>
    {/*}      <img src={MScott} alt="Deck of Toy Story Uno" className="photos" />*/}
-         <p className='explText'><span className='events'>Events Origins and Rules: </span> An experience familiar to many
-         parents was the inspiration for this event. <span>
+         <p className='explText'><span className='events'>Events Origins and Rules: </span> Inspired by an experience familiar to many
+         parents. <span>
          <ul>
-           <li>You're in the kitchen making dinner, step down and Ouch</li>
+           <li>You're in the kitchen making dinner, step down and Ouch!</li>
            <li> You're walking laundry to the washer, step down and Ouch!</li>
            <li>You're hopping along any happy bunny trail, step down and Ouch! </li>
          </ul>

@@ -58,8 +58,8 @@ class CupTables extends Component {
   </tr>
   <tr>
   <td> <Link to={"/BTS"} className="nav-text">Bed Time Stealth</Link></td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>1</td>
+    <td>0</td>
   </tr>
   <tr>
   <td><Link to={"/GameOn"} className="nav-text">Game On</Link></td>
@@ -68,8 +68,8 @@ class CupTables extends Component {
   </tr>
   <tr>
   <td><Link to={"/Sammy"} className="nav-text">Best Sandwich</Link></td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>0</td>
+    <td>1</td>
   </tr>
   <tr>
   <td><Link to={"/BTTO"} className="nav-text">Book Time Tap Out</Link></td>
