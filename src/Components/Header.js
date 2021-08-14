@@ -15,9 +15,9 @@ function Header(){
                <div className='header-container'>
                    
                    <div className='hero-links'>
-                    <a href={"/Home"}>
+                    <Link to={"/home"}>
           <img  alt="Unicorn Cup logo" src={Logo}  className="hero"/>
-          </a>
+          </Link>
         <div className="history">
       <button className="nav-button"><Link to={"/History"} className="nav-subtitle"> The Cup's History</Link></button> 
     </div>
