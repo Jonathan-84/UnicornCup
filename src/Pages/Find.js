@@ -19,8 +19,8 @@ class Find extends Component {
         
         <br></br>
         <br></br> {/* tweak the font appearance */}
-        <span className='events'>Most parents have uttered these words at least 
-        once: "where did you put my keys", "where did you hide my wallet", "what did you do with my [insert important item here]". </span>
+        <span> <p className='block-quote'> These questions are familiar to many parents:
+          Where did you put my keys?, Where did you hide my wallet?, What did you do with my [insert important item here]?</p></span>
         <br>
         </br>
         <br></br> 

@@ -17,13 +17,17 @@ class BTS extends Component {
         <p className='explText'><span className='events'>Events Origins and Rules: </span> Inspired by the nightly ritual
         that many parents understand, sneaking past your kids room when bedtime starts. It seems that children have mastered
         the art of stall tactics, and anything is better than bed. 
-        <br>
-        </br>
-        <br>
-        </br>
         This event will take place around the start of bedtime. 
-        Each contestant will make 3 passes by the judges's bedrooms. 1) the opposite direction 2) adjacent to their rooms 3) 
-        passing in front of their rooms. If your name, or mom/dad, is accurately called, then you get 0 points on that pass.
+        Each contestant will make 3 passes by the judges's bedrooms. 
+        <span>
+         <ul>
+           <li> 1. Opposite direction from their rooms</li>
+           <li> 2. Turn down the adjacent hallway</li>
+           <li> 3. Pass in front of their rooms </li>
+         </ul>
+         </span>
+  
+        If your name, or mom/dad, is accurately called, then you get 0 points on that pass.
         If you are not identified, then you get 1 point.
         Then it's the other contestant's turn, unless the previous contestant was accurately identified during their turn.
         (since it is almost guaranteed that the children will call the fist contestant's name, skewing results). The one with the most

@@ -14,9 +14,9 @@ class GameOn extends Component {
           
           <h1 className='title'>Game On</h1>
           <img src={Injustice} alt="cover of injustice 2" className="photos" />
-        <p className='explText'><span className='events'>Events Origins and Rules: </span> It could not be a Robinson 
+        <p className='explText'><span className='events'>Events Origins and Rules: </span> It could not be a household
         tournament without a video game event. The challenge was deciding the way to best keep competitors fairly matched,
-        considering Hippopposites video game experience. With that experience in mind, Injustice 2: Legenedary Edition
+        considering Hippopposites video game experience. With that experience in mind, Injustice 2: Legendary Edition
         was chosen as the game for the competition. The game had never been played by either challenger. In an effort to minimize
         muscle memory for Hippopposites, additional handicaps were determined by him. Hippopposites was to play on a difficulty 
         level higher and couldn't use Raiden or Sub-Zero. Each match, the competitors would chose a new fighter for themselves.
