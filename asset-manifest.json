@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/UnicornCup/static/css/main.dcc21d61.chunk.css",
-    "main.js": "/UnicornCup/static/js/main.0ff8882a.chunk.js",
-    "main.js.map": "/UnicornCup/static/js/main.0ff8882a.chunk.js.map",
+    "main.css": "/UnicornCup/static/css/main.7b29b6a1.chunk.css",
+    "main.js": "/UnicornCup/static/js/main.aa401c58.chunk.js",
+    "main.js.map": "/UnicornCup/static/js/main.aa401c58.chunk.js.map",
     "runtime-main.js": "/UnicornCup/static/js/runtime-main.be3dc753.js",
     "runtime-main.js.map": "/UnicornCup/static/js/runtime-main.be3dc753.js.map",
     "static/js/2.1f648994.chunk.js": "/UnicornCup/static/js/2.1f648994.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.8fbdcabc.chunk.js": "/UnicornCup/static/js/3.8fbdcabc.chunk.js",
     "static/js/3.8fbdcabc.chunk.js.map": "/UnicornCup/static/js/3.8fbdcabc.chunk.js.map",
     "index.html": "/UnicornCup/index.html",
-    "static/css/main.dcc21d61.chunk.css.map": "/UnicornCup/static/css/main.dcc21d61.chunk.css.map",
+    "static/css/main.7b29b6a1.chunk.css.map": "/UnicornCup/static/css/main.7b29b6a1.chunk.css.map",
     "static/js/2.1f648994.chunk.js.LICENSE.txt": "/UnicornCup/static/js/2.1f648994.chunk.js.LICENSE.txt",
     "static/media/BeanBagToss.14060743.jpg": "/UnicornCup/static/media/BeanBagToss.14060743.jpg",
     "static/media/BookTapOut.7888b5ef.jpg": "/UnicornCup/static/media/BookTapOut.7888b5ef.jpg",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.be3dc753.js",
     "static/js/2.1f648994.chunk.js",
-    "static/css/main.dcc21d61.chunk.css",
-    "static/js/main.0ff8882a.chunk.js"
+    "static/css/main.7b29b6a1.chunk.css",
+    "static/js/main.aa401c58.chunk.js"
   ]
 }
