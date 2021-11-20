@@ -88,6 +88,24 @@ ul li {
   
 }
 
+.drink {
+  text-align: center;
+  width: 90%;
+  font-family: 'Oswald', sans-serif;
+  color: #FF00FF;
+  font-size: 2.5vw;
+  
+}
+
+.winner {
+  text-align: center;
+  width: 90%;
+  font-family: 'Abel', sans-serif;
+  color:#FF00FF;
+  font-size: 3vw;
+  
+}
+
 .explText {
   text-align: center;
   font-size: 1.5vw;
@@ -251,6 +269,9 @@ table, tr, th, td{
 .title {
   font-size: 8vw;
 }
+.drink {
+  font-size: 8vw;
+}
 
 
 }
@@ -284,6 +305,14 @@ table, tr, th, td{
     font-size: 4vw;
     width: 90%;
   }
+  .winner {
+    text-align: center;
+    width: 90%;
+    font-family: 'Abel', sans-serif;
+    color:#FF00FF;
+    font-size: 5vw;
+    
+  }
   .nav-text {
     color: white;
     font-size: 4vw;
@@ -291,6 +320,9 @@ table, tr, th, td{
 
   
 .title {
+  font-size: 8vw;
+}
+.drink {
   font-size: 8vw;
 }
 

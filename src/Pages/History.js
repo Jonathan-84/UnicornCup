@@ -32,7 +32,7 @@ class History extends Component {
             <br>
             </br>
             <br></br>
-            <h4 className='title'>2021 Celebratory Drink</h4>
+            <h4 className='drink'>2021 Celebratory Drink</h4>
             <img src={Victor} alt="celebratory drink with the CUp" className="photos" />
             <br></br>
             <br></br>
