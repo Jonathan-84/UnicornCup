@@ -5,6 +5,7 @@ import { Chart, registerables } from 'chart.js';
 
 
 
+
 class Home extends Component {
    
   componentDidMount() {
@@ -61,8 +62,9 @@ borderCapStyle : 'round',
         </a></span> and <span><a href="https://www.barnesandnoble.com/w/hippopposites-janik-coat/1105802932?ean=9781419701511" target="_blank" rel='noreferrer'>Hippopposites
         </a></span>.</p>
           <div>
+            <h2> Llamaphones wins the Unicorn Cup!!!</h2>
           <canvas id="myChart" width="400" height="400"></canvas>
-          <p className='explText'> * Final 2 Events Were Canceled After Llamaphones Reached The Magic Number. </p>
+          <p className='explText'> * Final 2 Events Were Canceled</p>
 </div>
           <div>
 </div>

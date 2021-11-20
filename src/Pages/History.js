@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 //import moment from 'moment';
 import '../App.css';
 import TheCup from '../Assets/Images/TheCup.jpg'; // gives image path
-
+import Victor from '../Assets/Images/victorscup.jpg'; // gives image path
 
 class History extends Component {
  
@@ -32,9 +32,14 @@ class History extends Component {
             <br>
             </br>
             <br></br>
+            <h4 className='title'>2021 Celebratory Drink</h4>
+            <img src={Victor} alt="celebratory drink with the CUp" className="photos" />
+            <br></br>
+            <br></br>
             <br>
             </br>
-            <br></br>
+            <br>
+            </br>
 </>
        )
    }
