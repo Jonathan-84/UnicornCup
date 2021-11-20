@@ -33,7 +33,10 @@ class History extends Component {
             </br>
             <br></br>
             <h4 className='drink'>2021 Celebratory Drink</h4>
+  
+            <a href="https://raw.githubusercontent.com/Jonathan-84/UnicornCup/master/src/Assets/Images/victorscup.jpg" target="_blank" rel="noreferrer">
             <img src={Victor} alt="celebratory drink with the CUp" className="photos" />
+            </a>
             <br></br>
             <br></br>
             <br>
