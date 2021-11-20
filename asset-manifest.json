@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/UnicornCup/static/css/main.7b29b6a1.chunk.css",
-    "main.js": "/UnicornCup/static/js/main.aa401c58.chunk.js",
-    "main.js.map": "/UnicornCup/static/js/main.aa401c58.chunk.js.map",
+    "main.js": "/UnicornCup/static/js/main.bda0fb5a.chunk.js",
+    "main.js.map": "/UnicornCup/static/js/main.bda0fb5a.chunk.js.map",
     "runtime-main.js": "/UnicornCup/static/js/runtime-main.be3dc753.js",
     "runtime-main.js.map": "/UnicornCup/static/js/runtime-main.be3dc753.js.map",
     "static/js/2.1f648994.chunk.js": "/UnicornCup/static/js/2.1f648994.chunk.js",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.be3dc753.js",
     "static/js/2.1f648994.chunk.js",
     "static/css/main.7b29b6a1.chunk.css",
-    "static/js/main.aa401c58.chunk.js"
+    "static/js/main.bda0fb5a.chunk.js"
   ]
 }
