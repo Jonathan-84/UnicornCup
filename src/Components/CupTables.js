@@ -73,8 +73,8 @@ class CupTables extends Component {
   </tr>
   <tr>
   <td><Link to={"/BTTO"} className="nav-text">Book Time Tap Out</Link></td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>CANCELED</td>
+    <td>CANCELED</td>
   </tr>
   <tr>
   <td><Link to={"/Find"} className="nav-text">Find It</Link></td>
@@ -93,13 +93,13 @@ class CupTables extends Component {
   </tr>
   <tr>
   <td><Link to={"/Jenga"} className="nav-text">Jenga</Link></td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>CANCELED</td>
+    <td>CANCELED</td>
   </tr>
   <tr>
   <td><Link to={"/Ouch"} className="nav-text">Ouch!</Link></td>
-    <td>TBD</td>
-    <td>TBD</td>
+    <td>1</td>
+    <td>0</td>
   </tr>
 </table>
   <br>

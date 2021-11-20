@@ -18,7 +18,7 @@ class BTS extends Component {
         that many parents understand, sneaking past your kids room when bedtime starts. It seems that children have mastered
         the art of stall tactics, and anything is better than bed. 
         This event will take place around the start of bedtime. 
-        Each contestant will make 3 passes by the judges's bedrooms. 
+        Each contestant will make 3 passes by the judges' bedrooms. 
         <span>
          <ul>
            <li> 1. Opposite direction from their rooms</li>
@@ -34,7 +34,7 @@ class BTS extends Component {
         points after their 3 passes will win. A tiebreaker is TBD.  
 
  </p>
-      <p className='explText'><span className='events'>Results:</span> Llamaphones won with 3 points, since Hippopposites 2. 
+      <p className='explText'><span className='events'>Results:</span> Llamaphones won with 3 points compared to Hippopposites 2. 
       Each contestant exhibited ninja like stealth as they completed their first 2 passes. The third and final pass, right
       in front of the judges' rooms, was the deciding round. After Hippopposites was called on his own turn, he was called for again
       as Llamaphones completed their round... even though the little judge could see who passed.

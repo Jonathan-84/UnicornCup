@@ -18,7 +18,7 @@ class Home extends Component {
    data: {
        datasets: [{
            label: "Team Total",
-           data: [0, 7, 4, 0, 14,],
+           data: [0, 8, 4, 0, 14,],
            borderColor: ["Green", "Red"],
            backgroundColor: ["Green", "Red"],
            // this dataset is drawn below
@@ -62,7 +62,7 @@ borderCapStyle : 'round',
         </a></span>.</p>
           <div>
           <canvas id="myChart" width="400" height="400"></canvas>
-          <p className='explText'> * 3 Events remain </p>
+          <p className='explText'> * Final 2 Events Were Canceled After Llamaphones Reached The Magic Number. </p>
 </div>
           <div>
 </div>

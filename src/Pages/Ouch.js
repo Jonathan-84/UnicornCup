@@ -29,7 +29,8 @@ class Ouch extends Component {
          
 
  </p>
-      <p className='explText'><span className='events'>Results:</span> Will update upon completion.
+      <p className='explText'><span className='events'>Results:</span> Llamaphones came out victorious. After many rounds of
+      sudden death overtime, the deciding challenge came from an item small enough to barely be detected.
        </p>
             <br>
             </br>
